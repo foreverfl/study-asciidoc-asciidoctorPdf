@@ -1,0 +1,17 @@
+extends: default
+font:
+  catalog:
+    merge: true
+    Noto Sans KR: NotoSansKR-Regular.ttf
+    Noto Sans Mono KR: NotoSansKR-Medium.ttf
+  fallbacks:
+    - Noto Serif
+base:
+  text-align: left
+  font-family: Noto Sans KR
+codespan:
+  font-family: Noto Sans Mono KR
+kbd:
+  font-family: $codespan-font-family
+code:
+  font-family: $codespan-font-family
